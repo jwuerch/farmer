@@ -2,3 +2,54 @@ body {
     font-family: 'Open Sans', sans-serif;
     font-weight:400;
 }
+
+/** NAVBAR **/
+
+#primary-menu > ul.one-page-menu.sf-js-enabled > li > a {
+    color:#6F6D6A;
+}
+#primary-menu > ul.one-page-menu.sf-js-enabled > li:nth-child(1) > a {
+    color:#DC9B30;
+    font-weight:700;
+}
+#primary-menu > ul.one-page-menu.sf-js-enabled > li:nth-child(2) > a {
+    color:#523E14;
+    font-weight:700;
+}
+
+#primary-menu > ul.one-page-menu.sf-js-enabled > li:nth-child(3) > a {
+    color:#768E44;
+    font-weight:700;
+}
+#logo img {
+    padding-bottom:5px;
+}
+
+#header {
+    background:#F3F3EE;
+}
+#header-wrap > div {
+    padding-left:0 !important;
+}
+#header.full-header {
+    border-bottom: 5px solid #DC9B30;
+}
+
+#header.sticky-header:not(.static-sticky), #header.sticky-header:not(.static-sticky) #header-wrap, #header.sticky-header:not(.static-sticky):not(.sticky-style-2):not(.sticky-style-3) #logo img {
+    height:85px;
+}
+#header.sticky-header:not(.static-sticky) #primary-menu > ul > li > a {
+    padding-top:32px;
+    padding-bottom:31px;
+}
+
+#header.sticky-header:not(.static-sticky) #header-wrap {
+    background:#F3F3EE;
+}
+#header.sticky-header:not(.static-sticky):not(.sticky-style-2):not(.sticky-style-3) #logo img {
+    padding-bottom:0;
+}
+
+#header.sticky-header:not(.static-sticky) #header-wrap {
+    border-bottom: 1px solid #EEE;
+}

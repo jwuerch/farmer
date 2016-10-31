@@ -971,7 +971,7 @@ html[xmlns] .slider-wrap {display: block;}
 	padding-top: 100px;
 }
 
-#header.full-header { border-bottom-color: #EEE; }
+
 
 body.stretched #header.full-header .container {
 	width: 100%;
@@ -997,12 +997,10 @@ body.stretched #header.full-header .container {
 	font-family: 'Raleway', sans-serif;
 	font-size: 36px;
 	line-height: 100%;
-	margin-right: 40px;
 }
 
 #header.full-header #logo {
 	padding-right: 30px;
-	margin-right: 30px;
 }
 
 #header.transparent-header.full-header #logo { }
@@ -1116,10 +1114,7 @@ body.stretched #header.full-header .container {
 	display: block;
 	line-height: 22px;
 	padding: 39px 15px;
-	font-weight: bold;
-	font-size: 13px;
-	letter-spacing: 1px;
-	text-transform: uppercase;
+	font-size: 16px;
 	-webkit-transition: margin .4s ease, padding .4s ease;
 	-o-transition: margin .4s ease, padding .4s ease;
 	transition: margin .4s ease, padding .4s ease;
