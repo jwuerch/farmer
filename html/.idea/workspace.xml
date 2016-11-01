@@ -24,8 +24,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="273">
-              <caret line="266" column="0" selection-start-line="266" selection-start-column="0" selection-end-line="266" selection-end-column="0" />
+            <state relative-caret-position="310">
+              <caret line="272" column="53" selection-start-line="272" selection-start-column="53" selection-end-line="272" selection-end-column="53" />
               <folding>
                 <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="e#5762#5767#0" expanded="true" />
@@ -44,6 +44,7 @@
                 <element signature="e#15337#15343#0" expanded="true" />
                 <element signature="e#15343#15348#0" expanded="true" />
                 <element signature="e#15348#15354#0" expanded="true" />
+                <element signature="e#16634#16641#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -52,8 +53,8 @@
       <file leaf-file-name="custom.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/custom.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="78">
-              <caret line="97" column="12" selection-start-line="97" selection-start-column="12" selection-end-line="97" selection-end-column="12" />
+            <state relative-caret-position="385">
+              <caret line="490" column="23" selection-start-line="490" selection-start-column="23" selection-end-line="490" selection-end-column="23" />
               <folding />
             </state>
           </provider>
@@ -146,20 +147,6 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="images" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="html" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="html" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="css" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
@@ -238,12 +225,12 @@
       <workItem from="1477954251263" duration="1703000" />
       <workItem from="1477956016581" duration="7000" />
       <workItem from="1477958435070" duration="4920000" />
-      <workItem from="1478006986515" duration="5859000" />
+      <workItem from="1478006986515" duration="6329000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12489000" />
+    <option name="totallyTimeSpent" value="12959000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-19" y="177" width="1111" height="873" extended-state="0" />
@@ -306,6 +293,7 @@
             <element signature="e#15337#15343#0" expanded="true" />
             <element signature="e#15343#15348#0" expanded="true" />
             <element signature="e#15348#15354#0" expanded="true" />
+            <element signature="e#16634#16641#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -348,6 +336,7 @@
             <element signature="e#15337#15343#0" expanded="true" />
             <element signature="e#15343#15348#0" expanded="true" />
             <element signature="e#15348#15354#0" expanded="true" />
+            <element signature="e#16634#16641#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -390,6 +379,7 @@
             <element signature="e#15337#15343#0" expanded="true" />
             <element signature="e#15343#15348#0" expanded="true" />
             <element signature="e#15348#15354#0" expanded="true" />
+            <element signature="e#16634#16641#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -410,10 +400,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-14355">
+          <caret line="6588" column="0" selection-start-line="6588" selection-start-column="0" selection-end-line="6588" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="273">
-          <caret line="266" column="0" selection-start-line="266" selection-start-column="0" selection-end-line="266" selection-end-column="0" />
+        <state relative-caret-position="310">
+          <caret line="272" column="53" selection-start-line="272" selection-start-column="53" selection-end-line="272" selection-end-column="53" />
           <folding>
             <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="e#5762#5767#0" expanded="true" />
@@ -432,22 +430,15 @@
             <element signature="e#15337#15343#0" expanded="true" />
             <element signature="e#15343#15348#0" expanded="true" />
             <element signature="e#15348#15354#0" expanded="true" />
+            <element signature="e#16634#16641#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-14355">
-          <caret line="6588" column="0" selection-start-line="6588" selection-start-column="0" selection-end-line="6588" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/css/custom.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="78">
-          <caret line="97" column="12" selection-start-line="97" selection-start-column="12" selection-end-line="97" selection-end-column="12" />
+        <state relative-caret-position="385">
+          <caret line="490" column="23" selection-start-line="490" selection-start-column="23" selection-end-line="490" selection-end-column="23" />
           <folding />
         </state>
       </provider>

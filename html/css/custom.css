@@ -184,7 +184,7 @@ section h2 {
 
 .device-lg .phone-slug div.col-sm-6.tleft, .device-md .phone-slug div.col-sm-6.tleft, .device-sm .phone-slug div.col-sm-6.tleft {
     border-left:1px solid #0D2D3F;
-    padding:8px 15px;
+    padding:7px 15px;
 }
 .phone-slug .button {
     margin:0;
@@ -467,3 +467,29 @@ section h2 {
     line-height:40px !important;
 }
 /** END SPECIALS **/
+
+/** PHONE SLUG 2 **/
+
+#phone-slug-2 h6 {
+    font-family: Merriweather;
+    font-size: 17px;
+    color: #0D2D3F;
+    line-height:8px;
+}
+#phone-slug-2 .text-phone a {
+    color:#0D2D3F;
+    font-weight:900;
+    font-family:'Lato', sans-serif;
+    font-size:36px;
+}
+#phone-slug-2 .button-2 {
+    padding-left:30px;
+    padding-right:30px;
+    border:2px solid #FFF;
+}
+#phone-slug-2 {
+    background:#FFFCCB;
+}
+.device-xs #phone-slug-2 .text-phone, .device-xxs #phone-slug-2 .text-phone {
+    margin-bottom:5px;
+}
