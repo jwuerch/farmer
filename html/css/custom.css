@@ -95,21 +95,25 @@ h2 {
     color:#F4E82E;
 
 }
-#slide-1 h2 {
+#slide-1 h2, #slide-2 h2 {
     color:#768E44;
     font-size:48px;
     margin-bottom:20px;
 }
-#slide-1 p {
+#slide-1 p, #slide-2 p {
     color:#2F393C;
     font-size:20px;
 }
 .swiper-slide {
     font-family: 'Lato', sans-serif;
 }
-#slide-1 > div > div > p.tright.t700 {
+#slide-1 > div > div > p.tright.t700, #slide-2 > div > div > p.tright.t700 {
     margin-right:50px;
+    color:#525959;
 }
 #slide-1 > div > div > p:nth-child(5) {
     margin-bottom:20px;
+}
+#slide-2 .slider-caption.slider-caption-right {
+    margin-top:-75px;
 }

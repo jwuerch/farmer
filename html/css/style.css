@@ -6586,7 +6586,6 @@ body:not(.device-xs):not(.device-xxs) .countdown.countdown-large.coming-soon .co
 	height: 48px;
 	line-height: 40px;
 	color: #FFF;
-	font-weight: 600;
 	letter-spacing: 1px;
 	border: 2px solid #FFF;
 	padding-left:45px;
