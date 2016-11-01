@@ -98,5 +98,18 @@ h2 {
 #slide-1 h2 {
     color:#768E44;
     font-size:48px;
-
+    margin-bottom:20px;
+}
+#slide-1 p {
+    color:#2F393C;
+    font-size:20px;
+}
+.swiper-slide {
+    font-family: 'Lato', sans-serif;
+}
+#slide-1 > div > div > p.tright.t700 {
+    margin-right:50px;
+}
+#slide-1 > div > div > p:nth-child(5) {
+    margin-bottom:20px;
 }
