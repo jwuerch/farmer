@@ -2,6 +2,9 @@ body {
     font-family: 'Open Sans', sans-serif;
     font-weight:400;
 }
+h1 {
+    font-size:60px;
+}
 h2 {
     font-size:48px;
     font-weight:700;
@@ -100,10 +103,21 @@ h2 {
     font-size:48px;
     margin-bottom:20px;
 }
+#slide-3 h1 {
+    color:#768E44;
+    margin-bottom:0px;
+}
+#slide-3 > div > div > p:nth-child(2) {
+    font-size:30px;
+    font-weight:700;
+    color:#2F393C;
+    margin-bottom:30px;
+}
 #slide-1 p, #slide-2 p {
     color:#2F393C;
     font-size:20px;
 }
+
 .swiper-slide {
     font-family: 'Lato', sans-serif;
 }
@@ -116,4 +130,11 @@ h2 {
 }
 #slide-2 .slider-caption.slider-caption-right {
     margin-top:-75px;
+}
+#slide-3 > div > div > p:nth-child(3) {
+    font-size:26px;
+    color:#2F393C;
+}
+#slide-3 .button {
+    padding:0 60px;
 }
