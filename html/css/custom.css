@@ -53,3 +53,26 @@ body {
 #header.sticky-header:not(.static-sticky) #header-wrap {
     border-bottom: 1px solid #EEE;
 }
+.device-md #primary-menu ul li > a {
+    font-size:15px;
+    padding-left:7.5px;
+    padding-right:7.5px;
+}
+.device-md #header.full-header #primary-menu > ul {
+    padding-right:0;
+    margin-right:0;
+}
+@media (max-width:1030px) {
+    .device-md #primary-menu ul li > a {
+        font-size:14px;
+    }
+}
+.device-sm #logo img, .device-xs #logo img, .device-xxs #logo img {
+    padding-bottom:0;
+}
+#primary-menu-trigger {
+    font-size:25px;
+}
+.device-xxs #primary-menu-trigger {
+    left:-11%;
+}
