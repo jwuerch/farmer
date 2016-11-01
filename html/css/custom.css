@@ -2,6 +2,12 @@ body {
     font-family: 'Open Sans', sans-serif;
     font-weight:400;
 }
+h2 {
+    font-size:48px;
+    font-weight:700;
+    font-family: 'Lato', sans-serif;
+    text-transform:none;
+}
 
 /** NAVBAR **/
 
@@ -75,4 +81,22 @@ body {
 }
 .device-xxs #primary-menu-trigger {
     left:-11%;
+}
+
+.device-sm #header, .device-xs #header, .device-xxs #header {
+    background:#FFF;
+}
+
+/** SLIDER **/
+
+.icon-star3 {
+    font-size:45px;
+    text-shadow: 0px 2px 4px 0px rgba(0,0,0,0.50);
+    color:#F4E82E;
+
+}
+#slide-1 h2 {
+    color:#768E44;
+    font-size:48px;
+
 }
