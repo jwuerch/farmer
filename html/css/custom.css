@@ -129,7 +129,7 @@ h2 {
     margin-bottom:20px;
 }
 #slide-2 .slider-caption.slider-caption-right {
-    margin-top:-75px;
+    margin-top:-50px;
 }
 #slide-3 > div > div > p:nth-child(3) {
     font-size:26px;
@@ -143,4 +143,7 @@ h2 {
 }
 .device-sm #slide-3, .device-md #slide-3 {
     background-position:100% 100%;
+}
+.star-wrap {
+    margin-bottom:20px;
 }
