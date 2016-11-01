@@ -102,6 +102,16 @@ section h2 {
     background:#FFF;
 }
 
+@media (max-width:380px) {
+    #logo img {
+        position:relative;
+        right:-30px;
+    }
+    #primary-menu-trigger {
+        left:0% !important;
+    }
+}
+
 /** SLIDER **/
 
 #slider {
@@ -254,6 +264,10 @@ section h2 {
 #phone-slug-1-mobile {
     border-bottom:5px solid #DC9B30;
 }
+#phone-slug-1-mobile .button-2 {
+    font-size:15px;
+    width:100%;
+}
 /** MEET THE DOCTOR **/
 #meet-the-doctor h5 {
     font-size:24px;
@@ -287,4 +301,7 @@ section h2 {
     #meet-the-doctor {
         background-position:100% 100%;
     }
+}
+.device-xxs #meet-the-doctor h2 {
+    line-height:55px;
 }
