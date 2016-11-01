@@ -138,3 +138,9 @@ h2 {
 #slide-3 .button {
     padding:0 60px;
 }
+#slide-1, #slide-2, #slide-3 {
+    background-position:0% 0%;
+}
+.device-sm #slide-3, .device-md #slide-3 {
+    background-position:100% 100%;
+}
