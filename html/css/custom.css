@@ -5,11 +5,20 @@ body {
 h1 {
     font-size:60px;
 }
+h2, h3, h4, h5, h6 {
+    font-family:'Lato', sans-serif;
+}
 h2 {
     font-size:48px;
     font-weight:700;
-    font-family: 'Lato', sans-serif;
     text-transform:none;
+}
+h5 {
+    font-size:24px;
+}
+section h2 {
+    font-weight:900;
+    color:#768E44;
 }
 
 .content-wrap {
@@ -244,4 +253,38 @@ h2 {
 }
 #phone-slug-1-mobile {
     border-bottom:5px solid #DC9B30;
+}
+/** MEET THE DOCTOR **/
+#meet-the-doctor h5 {
+    font-size:24px;
+    color:#C79C4A;
+    margin-bottom:30px;
+}
+#meet-the-doctor {
+    padding:80px 0;
+    padding-bottom:100px;
+    background:url('../images/farmer-bio.jpg');
+    background-size:cover;
+    background-repeat:no-repeat;
+    border-bottom: 5px solid #DC9B30;
+
+}
+
+#meet-the-doctor p {
+    color:#51504E;
+    line-height:23px;
+}
+
+.device-xs #meet-the-doctor, .device-xxs #meet-the-doctor {
+    background:#FFF;
+    padding-bottom:0;
+    border-bottom:none;
+}
+#meet-the-doctor h2 {
+    margin-bottom:40px;
+}
+@media (max-width:1350px) {
+    #meet-the-doctor {
+        background-position:100% 100%;
+    }
 }
