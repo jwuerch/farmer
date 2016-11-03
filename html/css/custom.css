@@ -505,6 +505,7 @@ section h2 {
     padding:60px 0;
     background-size:cover;
     background-position:60% 65%;
+    background-attachment:fixed;
 }
 #patient-reviews h3 {
     /* What Our Patients Ar: */
@@ -553,4 +554,54 @@ section h2 {
 }
 .device-xxs #patient-reviews h5 {
     font-size:22px;
+}
+#membership-club {
+    padding:80px 0;
+    background-image:url('../images/membership-image.jpg');
+    background-size:contain;
+    background-position-x:100%;
+    background-repeat:no-repeat;
+}
+#membership-club h2 {
+    font-weight:900;
+    color:#829854;
+    font-size:55px;
+    margin-bottom:5px;
+}
+#membership-club h5 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 25px;
+    color: #3A3937;
+    font-weight:400;
+    margin-bottom:50px;
+}
+#membership-club h4 {
+    font-weight:900;
+    font-size: 30px;
+    color: #CDA961;
+    line-height: 32px;
+    margin-bottom:70px;
+}
+#membership-club p {
+    font-size: 16px;
+    color: #3A3937;
+    line-height: 22px;
+}
+.device-sm #membership-club, .device-xs #membership-club, .device-xxs #membership-club {
+    background:none;
+}
+.device-xs #membership-club h2 {
+    font-size:40px;
+}
+.device-xxs #membership-club h2 {
+    font-size:25px;
+    margin-bottom:20px;
+}
+.device-xxs #membership-club h5 {
+    font-size:19px;
+    margin-bottom:40px;
+}
+.device-xxs #membership-club h4 {
+    font-size:22px;
+    margin-bottom:40px;
 }
