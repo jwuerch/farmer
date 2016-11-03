@@ -697,3 +697,41 @@ section h2 {
 .owl-next {
     right:-18px !important;
 }
+
+/** PATIENT FORMS **/
+#patient-forms {
+    padding:50px 0;
+}
+#patient-forms .row {
+    display:flex;
+    flex-direction:row;
+    justify-content:space-around;
+}
+#patient-forms h2 {
+    font-weight:900;
+    font-size: 48px;
+    color: #768E44;
+    margin-bottom:10px;
+}
+#patient-forms p {
+    font-size: 16px;
+    color: #000000;
+    line-height: 22px;
+}
+.device-sm #patient-forms .button {
+    padding:0 25px;
+}
+.device-xs #patient-forms .row, .device-xxs #patient-forms .row {
+    display:inherit;
+    text-align:center;
+}
+.device-xs #patient-forms .button, .device-xxs #patient-forms .button {
+    margin-bottom:10px;
+}
+.device-xxs #patient-forms .button {
+    width:100%;
+}
+.device-xxs #patient-forms h2 {
+    line-height:52px;
+    margin-bottom:20px;
+}
