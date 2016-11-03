@@ -16,6 +16,9 @@ h2 {
 h3 {
     font-size:36px;
 }
+h4 {
+    font-size:30px;
+}
 h5 {
     font-size:24px;
 }
@@ -604,4 +607,87 @@ section h2 {
 .device-xxs #membership-club h4 {
     font-size:22px;
     margin-bottom:40px;
+}
+
+/** SERVICES **/
+#services {
+    padding-top:60px;
+    padding-bottom:40px;
+    background:url('../images/wheat-overlay.png');
+    background-size:cover;
+    background-repeat:no-repeat;
+}
+#services h2 {
+    font-weight:900;
+    font-size: 48px;
+    color: #768E44;
+}
+#services .container > p {
+    font-size: 16px;
+    color: #000000;
+    line-height:22px;
+    margin-bottom:40px;
+}
+#services .container > p > a {
+    color:#000;
+    text-decoration:underline;
+}
+#services .col-sm-6 > p {
+    font-size: 14px;
+    color: #0D0D0C;
+    line-height: 19px;
+    width:95%
+}
+#services .col-sm-6 h4 {
+    margin-top:10px;
+    margin-bottom:20px;
+    font-weight:900;
+    color: #BB9344;
+}
+#services h6 {
+    font-weight:900;
+    font-size: 24px;
+    color: #768E44;
+}
+#services .row {
+    margin-bottom:50px;
+}
+#services .owl-carousel .owl-nav [class*=owl-] {
+    opacity:1 !important;
+    background:#52A3BF;
+    color:#FFF;
+    border:2px solid #FFF;
+}
+#services .owl-carousel .owl-nav [class*=owl-]:hover {
+    background:#4B95AF;
+}
+#services .owl-carousel .owl-nav {
+    position:relative;
+    top:-188px;
+    opacity:1 !important;
+
+}
+.device-md #services .owl-carousel .owl-nav {
+    top:-200px;
+}
+.device-sm #services .owl-carousel .owl-nav {
+    top:-170px;
+}
+.device-xs #services .owl-carousel .owl-nav, .device-xxs #services .owl-carousel .owl-nav {
+    top:-200px;
+}
+.plus-sign {
+    color:#FFF;
+    font-size:50px;
+    top:35%;
+    position:relative;
+}
+.device-md .plus-sign {
+    top:34%;
+}
+.device-sm .plus-sign {
+    top:32%;
+}
+.device-xs .plus-sign {
+    top:32%;
 }
