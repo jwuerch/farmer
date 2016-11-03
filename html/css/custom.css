@@ -26,11 +26,13 @@ section h2 {
     font-weight:900;
     color:#768E44;
 }
-.button-2:hover {
-    background:#33829D;
-}
+
 .button:hover {
     background:#C7880E;
+}
+
+.button-2:hover {
+    background:#33829D;
 }
 
 .content-wrap {
@@ -38,19 +40,19 @@ section h2 {
 }
 /** NAVBAR **/
 
-#primary-menu > ul.one-page-menu.sf-js-enabled > li > a {
+#primary-menu > ul > li > a {
     color:#6F6D6A;
 }
-#primary-menu > ul.one-page-menu.sf-js-enabled > li:nth-child(1) > a {
+#primary-menu > ul > li:nth-child(1) > a {
     color:#DC9B30;
     font-weight:700;
 }
-#primary-menu > ul.one-page-menu.sf-js-enabled > li:nth-child(2) > a {
+#primary-menu > ul > li:nth-child(2) > a {
     color:#523E14;
     font-weight:700;
 }
 
-#primary-menu > ul.one-page-menu.sf-js-enabled > li:nth-child(3) > a {
+#primary-menu > ul > li:nth-child(3) > a {
     color:#768E44;
     font-weight:700;
 }
