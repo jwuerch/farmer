@@ -496,12 +496,61 @@ section h2 {
 .device-xs #phone-slug-2 .text-phone, .device-xxs #phone-slug-2 .text-phone {
     margin-bottom:5px;
 }
+.device-xxs #phone-slug-2 .button {
+    font-size:16px;
+}
 /** PATIENT REVIEWS **/
 #patient-reviews {
-    background:url('')
+    background:url('../images/reviews-bkgd.jpg');
+    padding:60px 0;
+    background-size:cover;
+    background-position:60% 65%;
 }
 #patient-reviews h3 {
     /* What Our Patients Ar: */
     font-weight:900;
     text-shadow: 0px 2px 4px rgba(0,0,0,0.50);
+    color:#FFF;
+}
+#patient-reviews h5 {
+    text-shadow: 0px 2px 4px rgba(0,0,0,0.50);
+    color:#FFF;
+    margin-bottom:30px;
+}
+#patient-reviews p {
+    color:#FFF;
+    font-size:21px;
+    font-family: 'Lato', sans-serif;
+    line-height:30px;
+    text-shadow: 0px 2px 4px rgba(0,0,0,0.50);
+}
+#patient-reviews .img-wrap {
+    margin-bottom:50px;
+}
+#patient-reviews .owl-carousel .owl-dots .owl-dot span {
+    width:13px;
+    height:13px;
+    background-color:#FFF;
+}
+#patient-reviews .owl-carousel .owl-nav {
+    display:none;
+}
+.device-md #patient-reviews h5 {
+    margin-bottom:80px;
+}
+.device-md #patient-reviews {
+    background-position:0% 0%;
+    padding:80px 0;
+}
+.device-sm #patient-reviews, .device-xs #patient-reviews, .device-xxs #patient-reviews {
+    background-position:100% 100%;
+}
+.device-xxs #patient-reviews p {
+    font-size:18px;
+}
+.device-xxs #patient-reviews h3 {
+    font-size:28px;
+}
+.device-xxs #patient-reviews h5 {
+    font-size:22px;
 }
