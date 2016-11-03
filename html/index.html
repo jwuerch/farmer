@@ -472,6 +472,46 @@
                     </div>
                 </div>
             </section>
+            <!---- Contact Section ----->
+            <section id="contact" class="section-contact full-screen section nopadding nomargin noborder ohidden">
+                <div class="vertical-middle">
+                    <div class="container clearfix">
+                        <!-- Contact Form Overlay
+                        ============================================= -->
+                        <div id="contact-form-overlay-mini" class="clearfix">
+                            <div class="contact-rectangle img-wrap center">
+                                <a href="#" data-scrollto="#header" data-offset="0"><img
+                                        src="images/masthead-logo.png" alt="Logo"></a>
+                            </div>
+                            <div class="center">
+                                <p class="">53 3rd Street SW<br>Huron, SD 57350</p>
+                                <a class="click-map" target="_blank"
+                                      href="https://www.google.com/maps/place/Countryside+Dental/@44.3635128,-98.2173919,17z/data=!3m1!4b1!4m5!3m4!1s0x8787be86af8561f9:0x33c98a69617b8349!8m2!3d44.3633863!4d-98.2151916">Click
+                                    to view map</a></p>
+                                <p class="patient-hotline">New Patient Hotline</p>
+                                <a href="tel:+18887179818"><p class="text-phone-1">(888) 717&#8209;9818</p></a>
+                                <a class="button button-2" data-toggle="modal"
+                                   data-target="#contact-modal">REQUEST APPOINTMENT</a>
+                                <p class="patient-hotline">Existing Patients Call</p>
+                                <a href="tel:+16053523070"><p class="text-phone-2">(605) 352&#8209;3070</p></a>
+                            </div>
+
+
+                        </div><!-- Contact Form Overlay End -->
+
+                    </div>
+                </div>
+
+                <!-- Google Map
+                ============================================= -->
+                <section id="google-map" class="gmap hidden-xs hidden-xxs"><h2 class=" hidden-lg hidden-md hidden-sm hidden-xshidden-print">Empty Tag</h2>
+                </section>
+
+            </section>
+            <section class="hidden-lg hidden-md hidden-sm map-below-contact-section">
+                <img class="map-below-contact" src="images/countryside-dental-map.jpg" alt="Location Map">
+
+            </section>
           
 
 
@@ -536,32 +576,25 @@
 <!-- Google Map Script
     ========================= -->
 <script>
-    var map, map2;
+    var map;
     function initMap() {
-        var myLatLng = {lat: 38.914417, lng: -120.001949};
-        var myLatLng2 = {lat: 38.969066, lng: -119.928776};
+        var myLatLng = {lat: 44.363382, lng: -98.215198};
         map = new google.maps.Map(document.getElementById('google-map'), {
             center: myLatLng,
-            zoom: 16
-        });
-        map2 = new google.maps.Map(document.getElementById('google-map-2'), {
-            center: {lat: 38.969066, lng: -119.928776},
-            maptype: 'ROADMAP',
             zoom: 16,
+            scrollwheel: false,
+            draggable:false
         });
         var marker = new google.maps.Marker({
             position: myLatLng,
             map: map,
-            title: 'Hello World!'
-        });
-        var marker2 = new google.maps.Marker({
-            position: myLatLng2,
-            map: map2,
-            title: 'Hello World!'
+            title: 'Countryside Dental'
         });
     }
 </script>
-<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB8M-t-mC3X8wlQvyy6a93iVQ3v2JGv9Q4&callback=initMap" async defer></script>
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB8M-t-mC3X8wlQvyy6a93iVQ3v2JGv9Q4&callback=initMap" async
+        defer></script>
+
 
 </body>
 </html>
