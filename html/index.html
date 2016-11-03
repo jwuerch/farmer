@@ -538,7 +538,7 @@
             <div class="container clearfix">
 
                 <div class="col_half">
-                    <span class="copyright">Copyright © 2016 All Rights Reserved by <a class="tyson-link" href="http://www.tysonsteele.com" target="_blank">Tyson&nbsp;Steele&nbsp;Associates</a></span>
+                    <span class="copyright">Copyright © 2016 All Rights Reserved by <a class="tyson-link" href="http://www.tysonsteele.com" target="_blank">Tyson&nbsp;Steele&nbsp;Associates.</a></span>
                 </div>
 
                 <div class="col_half col_last tright">
@@ -583,8 +583,75 @@
 
 </div><!-- #wrapper end -->
 
-<!-- Go To Top
+
+
+
+<!-- Contact Modal
 ============================================= -->
+
+
+<div class="modal fade" id="contact-modal" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span
+                    aria-hidden="true">×</span></button>
+            <h4 class="modal-title">Request an Appointment</h4>
+        </div>
+        <div class="modal-body">
+            <div class="form-error"></div>
+            <form id="mail-form" method="post" action="//web-api.tysonsteele.com/v1/webprops/KEY/schedule">
+                <h5>YES! Please contact me to schedule an appointment or answer any questions I&nbsp;might&nbsp;still&nbsp;have:</h5>
+                <div class="row appointment_input_row form-group">
+                    <div class="col-xs-4">
+                        <label for="name">Name:</label>
+                    </div>
+                    <div class="col-xs-8">
+                        <input type="text" name="name" id="name" class="form-control appointment_form">
+                    </div>
+                </div>
+                <div class="row appointment_input_row form-group">
+                    <div class="col-xs-4">
+                        <label for="confirmed_email">Email:</label>
+                    </div>
+                    <div class="col-xs-8">
+                        <input type="email" name="confirmed_email" id="confirmed_email"
+                               class="form-control appointment_form">
+                    </div>
+                </div>
+                <div class="row appointment_input_row form-group">
+                    <div class="col-xs-4">
+                        <label for="phone">Phone:</label>
+                    </div>
+                    <div class="col-xs-8">
+                        <input type="text" name="phone" id="phone" class="form-control appointment_form">
+                    </div>
+                </div>
+                <button type="submit" class="btn button custom-btn">Request Appointment</button>
+            </form>
+        </div>
+    </div>
+</div>
+
+<!-- Services Modals -->
+
+<div class="modal fade service-modal" id="implant-dentistry" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span
+                    aria-hidden="true">×</span></button>
+            <h4 class="modal-title">Implant Dentistry</h4>
+        </div>
+        <div class="modal-body">
+            <div class="img-wrap hidden-xs hidden-sm">
+                <img src="images/services/modal-implants.jpg" alt="Implant Dentistry">
+            </div>
+            <div class="service-modal-text">
+                <p>Dental implants are a great option for replacing missing teeth, improving chewing ability, eliminating bridges, and replacing dentures.</p>
+                <p>Several implants may provide a base for a series of artificial teeth known as a fixed bridge. Implants can even be used to secure a full set of removable dentures for people who have no remaining natural teeth.</p>
+            </div>
+        </div>
+    </div>
+</div>
 
 <!-- JS Templates
 		====================== -->
