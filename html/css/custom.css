@@ -735,6 +735,9 @@ section h2 {
     line-height:52px;
     margin-bottom:20px;
 }
+.device-xxs #patient-forms {
+    padding-bottom:0;
+}
 
 /** CONTACT **/
 #contact-form-overlay-mini {
@@ -806,4 +809,53 @@ section h2 {
 .device-xxs #contact-form-overlay-mini {
     padding-left:15px;
     padding-right:15px;
+}
+.device-xs #contact-form-overlay-mini, .device-xxs #contact-form-overlay-mini {
+    box-shadow:none;
+}
+#google-map {
+    height:100%;
+    border-bottom:5px solid #FFF;
+}
+#copyrights {
+    background:#768E44;
+}
+a.social-icon.si-rounded:hover {
+    text-decoration:none;
+}
+a.social-icon.si-rounded {
+    background:#FFF;
+}
+.copyright, .copyright a {
+    color:#FFF;
+    font-size:14px;
+    font-weight:300;
+}
+
+
+
+.device-xs #copyrights .col_half:last-child, .device-xxs #copyrights .col_half:last-child {
+    display:block;
+    margin-top:10px;
+}
+
+.device-xxs div.fright.clearfix {
+    text-align:center !important;
+}
+
+.device-xxs #copyrights .social-icon {
+    position:relative;
+    left:22%;
+}
+.device-xs #copyrights > div > div.col_half.col_last > div.clearfix {
+    display:flex;
+    float:none !important;
+    justify-content:center;
+}
+.device-xxs #copyrights > div > div.col_half.col_last > div.clearfix {
+    left:-23%;
+    display:flex;
+    float:none !important;
+    justify-content:center;
+    position:relative;
 }
