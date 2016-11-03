@@ -691,3 +691,9 @@ section h2 {
 .device-xs .plus-sign {
     top:32%;
 }
+.owl-prev {
+    left:-18px !important;
+}
+.owl-next {
+    right:-18px !important;
+}
