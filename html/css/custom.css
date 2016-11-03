@@ -920,7 +920,7 @@ h4.modal-title {
     background:#FFF;
 }
 .service-modal h4 {
-    color:#1385E8;
+    color:#768E44;
 }
 .service-modal .modal-header {
     border-radius:3px 3px 0px 0px;
@@ -935,4 +935,11 @@ h4.modal-title {
 }
 .service-modal img {
     margin-bottom:10px;
+}
+.oc-item:hover {
+    cursor:pointer;
+}
+
+div.modal-body > div.img-wrap {
+    text-align:center;
 }
